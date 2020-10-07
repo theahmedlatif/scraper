@@ -51,49 +51,4 @@ class WebsiteController extends Controller
 
         return redirect('/websites');
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Website  $website
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Website $website)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Website  $website
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Website $website)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Website  $website
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Website $website)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Website  $website
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Website $website)
-    {
-        //
-    }
 }
